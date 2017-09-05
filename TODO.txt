@@ -1,0 +1,21 @@
+Things I need to do to finish Bottlecap 1.0:
+
+*GO BACK AND REMOVE ALL INSTANCES OF htmlspecialchars AND REPLACE WITH SOMETHING THAT ACTUALLY SCRUBS SQL INPUTS
+*Finish New Issue, Author, and Story pages
+*Finish Manage Issue, Author, and Story pages
+*Finish Story reading page
+*Finish Index page
+*Finish Author page
+*Finish Issue page
+*Finish sidebar for forward-facing pages
+*Finalize design
+*Tighten up security on admin pages (wash ALL SQL input, insert timeout for cookie session keys)
+
+Minor(ish) bug fixes (BCRP 1.0/1.1):
+*Change registration to fail on duplicate email address
+*User management in admin panel
+
+BCRP 1.2+ (stuff before 2.0):
+*User permissions?
+
+Further work will be part of Bottlecap 2.0

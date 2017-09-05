@@ -1,0 +1,112 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color:rgba(4,0,116,1.00);
+	font-family: 'Droid Serif', serif;
+}
+
+#body{
+	height: 100%;
+	width: 100%;
+	min-width: 800px;
+	margin: 0px;
+	padding: 0px;
+}
+
+h2{
+	margin: 10px 0px;
+	padding: 0px;
+	font-size: 1.4em;
+}
+
+#leftbar{
+	position: relative;
+	float: left;
+	width: 18.5%;
+	height: 99.75%;
+	top: 0.25%;
+	left: 0%;
+	overflow: auto;
+	margin: 0%;
+	padding: 0%;
+	/*font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+}
+
+a.sidebarlink{
+	text-decoration: none;
+	color: black;
+	margin: 0px;
+	padding: 0px;
+}
+
+.sidebar{
+	position: relative;
+	width: 90%;
+	left: 3%;
+	background-color: rgba(230,230,230,1.00);
+	border-radius: 10px;
+	margin: 8px 0px 0px;
+	padding: 5px 0px 5px 5px;
+	/*text-align: center;*/
+	text-align: left;
+	box-shadow: 2px 2px 5px rgba(200,200,200,1.00);
+}
+
+#leftbar > :first-child div{
+	margin-top: 0px !important;
+}
+
+.sidebar h3{
+	margin: 0px;
+	margin-bottom: 3px;
+	padding: 0px;
+	font-size: 1em;
+}
+
+.sidebar p{
+	margin: 0px;
+	margin-left: 2em;
+	padding: 0px;
+	font-size: 0.8em;
+}
+
+.padding{
+	margin: 0px;
+	padding: 0px;
+	height: 30px;
+	width: 0px;
+}
+
+#contentbody{
+	position: relative;
+	float: left;
+	background-color:rgba(230,230,230,1.00);
+	top: 0.25%;
+	left: 0.25%;
+	height: 98%;
+	width: 80%;
+	margin: 0%;
+	padding: 0px;
+	border-radius: 10px;
+	box-shadow:5px 5px 10px rgba(200,200,200,1.00);
+}
+
+#content{
+	width: 92%;
+	padding: 0;
+	padding-left: 1%;
+	padding-right: 1%;
+	height: 96%;
+	overflow: auto;
+	margin-top: 2%;
+	margin-bottom: 0%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#storyheader{}
+
+#storycontent{
+	white-space: pre-wrap;
+	/*line-height: 1.5em;*/
+}

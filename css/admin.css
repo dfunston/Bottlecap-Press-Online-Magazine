@@ -1,0 +1,209 @@
+#notlogged{
+	display: flex;
+	position: relative;
+	z-index:100;
+	margin: 0px;
+	padding: 0px;
+	background-color: rgba(187,0,3,0.68);
+	height: 100%;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+#notlogged span{
+	background-color: rgba(187,0,3,0.7);
+	box-shadow: 0 0 15px rgba(187,0,3,1.0);
+	padding: 3px;
+}
+
+#notloggedbackground{
+	text-shadow:0 0 10px rgba(0,0,0,1.0) !important;
+	color:transparent !important;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+}
+#notloggedbackground > :first-child{
+	margin-top: 0px !important;
+}
+#notloggedbackground a{
+	text-shadow:0 0 10px rgba(0,0,0,1.0) !important;
+	color:transparent !important;
+}
+#notloggedbackground input{
+	text-shadow:0 0 10px rgba(0,0,0,1.0) !important;
+	color:transparent !important;
+	border-style:dotted !important;
+	box-shadow:0 0 10px rgba(0,0,0,1.0) !important;
+}
+
+.sidebar #logoutbutton{
+	border-radius: 20px;
+	border-style:solid;
+	border-width: 1px;
+	text-align: center;
+	font-size: 0.8em;
+	margin: 3px 0px;
+	padding: 6px 15px;
+	background-color:rgba(255,255,255,1.00);
+	cursor: pointer;
+}
+
+
+
+.sidebar form{
+	margin: 0px;
+	padding: 0px;
+}
+/*This works soooo much better to center everything!*/
+#contentbody{display:table;}
+#content{display:table-cell; vertical-align:middle;}
+/*.centerwindow{
+	position: relative;
+	width: 300px;
+	margin: 0px;
+	margin-left: -150px;
+	padding: 0px;
+	left: 50%;
+	top: 50%;
+	background-color:rgba(183,183,183,1.00);
+	border-width: 1px;
+	border-style: solid;
+	border-color:rgba(183,183,183,1.00);
+	box-shadow:5px 5px 10px rgba(100,100,100,1.00);
+	border-radius: 20px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}*/
+.centerwindow{
+	/*width: 300px;*/
+	min-width: 300px;
+	max-width: 600px;
+	padding: 10px;
+	margin: 0px auto;
+	background-color:rgba(183,183,183,1.00);
+	border-width: 1px;
+	border-style: solid;
+	border-color:rgba(183,183,183,1.00);
+	box-shadow:5px 5px 10px rgba(100,100,100,1.00);
+	border-radius: 20px;
+	/*font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+}
+
+.centerwindow p{
+	display: block;
+	margin: 10px auto;
+	/*height: 30px;*/
+	/*width: 200px;*/
+	min-width: 200px;
+	max-width: 500px;
+	text-align: center;
+	text-size: 1.5em;
+	font-weight: bold;
+	padding: 0px;
+}
+
+.centerwindow p a{
+	color: black;
+}
+
+.centerwindow input{
+	display: block;
+	border-radius: 20px;
+	border-style:hidden;
+	text-align: center;
+	font-size: 1.2em;
+	height: 30px;
+	width: 500px;
+	max-width: 600px;
+	margin: 15px auto;
+	padding: 0px;
+	background-color: white;
+}
+
+.centerwindow #file{
+	padding: 4px 0px 4px 15px;
+	height: 36px;
+}
+
+.centerwindow textarea{
+	display: block;
+	border-radius: 20px;
+	border-style:hidden;
+	text-align: justify;
+	font-size: 1.2em;
+	height: 150px;
+	/*width: 200px;*/
+	width: 500px;
+	/*max-width: 600px;*/
+	max-width: 500px;
+	margin: 15px auto;
+	padding: 3px 10px;
+	margin-bottom: 25px;
+}
+
+.centerwindow select{
+	display: block;
+	border-radius: 20px;
+	border-style:hidden;
+	text-align: center;
+	font-size: 1.2em;
+	height: 30px;
+	width: 500px;
+	max-width: 600px;
+	margin: 15px auto;
+	padding: 0px;
+	background-color: white;
+}
+
+.centerwindow #submit{
+	width: 100px;
+	margin: 15px auto;
+	background-color:rgba(255,255,255,1.00);
+}
+
+#login{
+	width: 300px;
+}
+
+#login input{
+	width: 250px;
+}
+
+/*#newissue{
+	height: 350px;
+	margin-top: -175px;
+	width: 400px;
+	margin-left: -200px;
+}*/
+#newissue{
+	width: 400px;
+}
+
+#newstory{
+	width: 500px;
+}
+
+#newstory textarea{
+	height: 500px;
+}
+
+#newissue form{
+	margin-top: 15px;
+}
+
+#newissue input{
+	width: 300px;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+span.label{
+	width: 200px;
+	display: block;
+	text-align: center;
+	margin: 0px auto;
+}
